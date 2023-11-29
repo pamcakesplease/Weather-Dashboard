@@ -22,7 +22,7 @@ let action1 = function () {
     display("temp", "");
     display("weather", "");
   } else {
-    let first = "http://api.openweathermap.org/data/2.5/weather?q=";
+    let first = "https://api.openweathermap.org/data/2.5/weather?q=";
     let last = "&APPID=4b299a41807a027d6e35536849d106c1&units=imperial";
     let apiLink = first + city + last;
     fetch(apiLink)
